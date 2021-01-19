@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Family Tree</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body>
+      <div id='container'>
+        <div id='form'>
+            <h2>
+                Add a Family Member
+            </h2>
+            <div id='form-fields'>
+              <div class='field'>
+                <label for="name">Enter name:</label>
+                <input type="text" id="name" name="name" size='70'>
+              </div>
+              <div class='field'>
+                <label for="parent-name">Enter parent's name:</label>
+                <input type="text" id="parent-name" name="parent-name" size='70'>
+              </div>
+              <div class='field'>
+                <button type="button" id='submit'>
+                  Add new member
+                </button>
+              </div>
+            </div>
+            
+        </div>
+        <div id='tree'>
+          <div id='tree-title'>
+            <h2>
+              🌲 Family tree 🌲
+            </h2>
+          </div>
+          <div id='tree-body'>
+          </div>
+          
+
+        </div>
+        
+      </div>
+
+    <script src='family-tree.js'></script>
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </body>
+
+
+</html>

@@ -1,0 +1,86 @@
+* {
+    font-family: 'Philosopher', sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100%;
+}
+
+#form {
+    border: 1px solid rgb(232, 180, 48);
+    margin: 30px 300px;
+    border-radius: 30px;
+    box-shadow:0 10px 10px -5px rgb(233, 191, 83);
+}
+
+h2,h3,button,span {
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(232, 180, 48);
+    border: 0px;
+    border-radius: 35px;
+}
+
+#submit:hover {
+    border: 1px solid rgb(232, 180, 48);
+    background-color: white;
+    color: rgb(232, 180, 48);
+}
+
+#submit:hover:after {
+    content: "🎉";
+}
+
+#form-fields {
+/*    border: 1px solid rgb(179, 213, 216);*/
+}
+
+.field {
+/*    border: 1px solid rgb(193, 175, 218);*/
+    margin: 0px 170px 10px 170px;
+}
+
+.field > button {
+    margin: 0px 175px;
+}
+
+#first-gen {
+    width: 15%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#second-gen {
+    width: 45%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#third-gen {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.profiles {
+/*    border: 1px solid rgb(106, 148, 7);*/
+    width:fit-content;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 30%;
+    color: #588e03;
+    box-shadow:0 25px 25px -10px rgba(137, 181, 6, 0.5);
+}
