@@ -1,5 +1,6 @@
 function randomImage() {
   const profileImg = ['img/profile_1.png','img/profile_3.png','img/profile_5.jpg','img/profile_7.jpg','img/profile_2.png','img/profile_4.jpg','img/profile_6.jpg']
+
   let randomIndex = Math.floor(Math.random()*profileImg.length);
   return profileImg[randomIndex];
 }
@@ -11,6 +12,7 @@ class FamilyTree {
       throw 'invalid input';
     }
     this.value = parentName;
+    this.profile = randomImage();
     this.children = [];
   }
 
@@ -45,7 +47,7 @@ class FamilyTree {
           <span>${this.value}</span>
         </div>
         <div class='profile-img'>
-          <img src=${randomImage()}>
+          <img src=${this.profile}>
         </div>
       </div>
     `
@@ -57,7 +59,7 @@ class FamilyTree {
                   <span>${innerEle.value}</span>
                 </div>
                 <div class='profile-img'>
-                  <img src=${randomImage()}>
+                  <img src=${innerEle.profile}>
                 </div>
           </div>
           `
@@ -73,7 +75,7 @@ class FamilyTree {
           <span>${element.value}</span>
         </div>
         <div class='profile-img'>
-          <img src=${randomImage()}>
+          <img src=${element.profile}>
         </div>
       </div>`;
       })
