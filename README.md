@@ -75,4 +75,4 @@ If you're unimpressed by the difficulty of this assignment, I would ask that you
 -----------
 
 ### Felicity's deliverable [wip]
-![GIF of WA2](xxx) 
+![GIF of WA2](https://github.com/felicityandherdragon/family-tree/blob/master/img/Kapture%202021-01-18%20at%2020.03.38.gif) 
