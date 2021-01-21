@@ -25,6 +25,7 @@ button {
     background-color: rgb(232, 180, 48);
     border: 0px;
     border-radius: 35px;
+    transition: all 0.5s;
 }
 
 #submit:hover {
